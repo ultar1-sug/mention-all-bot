@@ -78,7 +78,7 @@ def unknown_command(update, context):
                              text="Sorry, I didn't understand that command.")
 
 
-updater = Updater(token=TOKEN, use_context=True)
+updater = Updater("6797141717:AAFXr7EpO1JKqSsQX9Vf8fRPbfaLxI0vqsU", use_context=True)
 dispatcher = updater.dispatcher
 
 handlers = [
